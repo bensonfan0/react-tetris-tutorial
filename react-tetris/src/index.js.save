@@ -1,0 +1,17 @@
+AAOOimport React from 'react';
+impoOOAOrt ReactDOM from 'react-dom';
+import 'O./index.css';
+import App from './App';
+impOOBOOOOAort * Oas serviceWorker from './serviceWorker';
+BOBOOOO
+ReOOactDOM.render(<App />, document.getElementById('root'));
+OO
+/O/ If you want your app to work offline and load faster, you can change
+//OO OunregBister() to register() below. Note this comes with some pitfalls.
+// LOOOOBBOOOearn more about service workers: https://bit.ly/CRA-PWA
+serviceWorkerOOBOBO.unregister();
+OBO
+OOOBOOBBOOBOBOOOBOOBO
+OBBOOOBOOOBO
+BOBO
+BBBOB
