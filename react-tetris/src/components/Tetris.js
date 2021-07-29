@@ -26,7 +26,7 @@ const Tetris = () => {
   console.log("re-render");
   console.log("wait i rerender alot?");
 
-  const movePlayer = (dir) => {
+  const movePlayer = (dir) => { 
     // passing object into function
     updatePlayerPos({ x: dir, y: 0})
   }
@@ -66,7 +66,7 @@ const Tetris = () => {
   return (
     // need this button key down on the entire screen, not just the stage
     //                                                      note: this below is
-    //                                                      an anonymouse fn
+    //                                                      an anonymous fn
     <StyledTetrisWrapper role="button" tabIndex="0" onKeyDown={e => moveKey(e)} >
       <StyledTetris>
         <Stage stage={ stage }/>
